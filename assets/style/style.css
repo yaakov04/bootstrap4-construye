@@ -1,0 +1,74 @@
+:root {
+    --barlow: 'Barlow Condensed', sans-serif;
+    --abel: 'Abel', sans-serif;
+    --color-font: rgb(51, 51, 51);
+}
+
+a.btn {
+    font-size: 1.25rem;
+}
+
+.bg-construye {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.bg-construye a {
+    color: var(--color-font);
+    font-size: 1.375rem;
+    font-weight: 600;
+    font-family: var(--barlow);
+}
+
+.bg-construye-dark {
+    background-color: #7D7D7D;
+}
+
+.hero {
+    height: 28.125rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/architecture-2256489.jpg);
+    background-position: center top;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-title {
+    font-family: var(--barlow);
+}
+
+.header-title h1 {
+    font-size: 6.25rem;
+    font-weight: 600;
+}
+
+.header-title p {
+    font-size: 1.25rem;
+}
+
+main section h2 {
+    font-family: var(--abel);
+    font-size: 2.5rem;
+}
+
+.servicios h3 {
+    font-family: var(--abel);
+    color: var(--color-font);
+    font-size: 2rem;
+}
+
+.galeria img {
+    width: 100%;
+}
+
+footer {
+    font-family: var(--abel);
+    color: var(--color-font);
+}
+
+.title-footer {
+    font-size: 2.5rem;
+}
+
+.copy-footer {
+    font-size: 1.125rem;
+}
